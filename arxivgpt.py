@@ -25,6 +25,7 @@ pd.set_option('display.max_colwidth',None)
 num = 4
 df.head(num)
 
+#Import transformer library
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 #Example abstract from API
